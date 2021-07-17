@@ -13,13 +13,13 @@ This runs `docker-compose` up in detached mode, pulls the needed Docker images, 
 Image can be built with the following command
 
 ```shell
-docker build -t ibqn/php .
+docker build -t ibqn/php:8 .
 ```
 
 and afterwards it should be uploaded to `docker hub`
 
 ```shell
-docker push ibqn/php
+docker push ibqn/php:8
 ```
 
 ## Shutdown and cleanup
