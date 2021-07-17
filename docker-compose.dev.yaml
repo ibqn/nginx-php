@@ -15,7 +15,7 @@ services:
 
   # php
   php:
-    build: ibqn/php:latest
+    build: .
     restart: always
     volumes:
       - ./www:/code
